@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
+    <h1>Webhook Test</h1>
     <ul>
     {
       data.allContentfulBlogPost.edges.map(edge => (
